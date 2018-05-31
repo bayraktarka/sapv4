@@ -11,8 +11,8 @@ spec:
       targetPort: 6379
   selector:
     filter:
-      name: redis-sap
-      app: sap-app
+      - name: redis-sap
+        app: sap-app
 
 
 
